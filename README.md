@@ -89,3 +89,8 @@ src/
 `npm run build` genera archivos estáticos en `/dist`, que se pueden subir a cualquier hosting estático. Como usa rutas limpias (`/colecciones`), el hosting debe redirigir todas las rutas a `index.html` (*SPA fallback*).
 
 Consulta `PENDIENTES.md` para ver lo que falta antes del lanzamiento comercial.
+
+## Publicación (GitHub Pages)
+
+Cada cambio en `main` se publica solo en https://rolandogeko.github.io/lumea/ mediante `.github/workflows/pages.yml`.
+Requisito único: en GitHub, Settings → Pages → Source: **GitHub Actions**.
