@@ -54,7 +54,7 @@ export default function Home() {
             Flores con la forma <em className="text-terracota-oscura">de alguien.</em>
           </h1>
           <p className="mt-8 max-w-[34ch] text-[18px] leading-relaxed text-piedra">
-            Diseñamos homenajes florales a partir de cómo era una persona: su carácter, sus lugares, sus costumbres.
+            Acompañamos a las familias en la despedida con flores que se parecen a quien se fue: a su carácter, sus lugares, sus costumbres.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
             <Link to="/crea-tu-homenaje" className="btn-primary">
@@ -76,12 +76,31 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* 2 · POSTURA */}
-      <section className="bg-arena" aria-label="Lo que creemos">
-        <div className="container-l grid-l py-24 lg:py-36">
-          <Reveal className="col-span-4 lg:col-span-9 lg:col-start-2">
-            <p className="font-display text-[40px] leading-[1.05] sm:text-[56px] lg:text-[76px]">
-              Un homenaje no tiene que parecerse a un funeral. <span className="text-piedra">Puede parecerse a una persona.</span>
+      {/* 2 · INTRO: POR QUÉ EXISTIMOS */}
+      <section className="bg-arena" aria-labelledby="intro-titulo">
+        <div className="container-l grid-l gap-y-12 py-24 lg:py-36">
+          <Reveal className="col-span-4 lg:col-span-5">
+            <p className="eyebrow">Por qué existimos</p>
+            <h2 id="intro-titulo" className="mt-6 text-[44px] leading-[1.02] sm:text-[60px] lg:text-[72px]">
+              Despedir a alguien no tiene que sentirse <em className="text-terracota-oscura">como un trámite.</em>
+            </h2>
+          </Reveal>
+          <Reveal className="col-span-4 space-y-6 text-[18px] leading-relaxed text-tinta/85 lg:col-span-6 lg:col-start-7 lg:pt-14">
+            <p>
+              Cuando alguien se va, a la familia le llueven cosas por hacer: llamadas, papeles, horarios y el primo que pregunta por
+              quinta vez dónde es. En medio de todo eso, elegir flores no debería ser una tarea más.
+            </p>
+            <p>
+              {brand.name} nació para quitarte ese peso de encima. Tú nos cuentas cómo era: el que cantaba boleros mientras cocinaba,
+              la que regaba sus plantas como si fueran sus hijas, el que nunca llegó puntual a nada. Nosotros nos encargamos del resto.
+            </p>
+            <p>
+              No hacemos coronas tristes ni arreglos de catálogo. Hacemos piezas que, al verlas, hacen decir “eso es tan suyo”. A veces
+              con una sonrisa, y está bien: recordar a alguien también es reírse de sus cosas.
+            </p>
+            <p>Te acompañamos desde el primer mensaje hasta que las flores llegan. Y si necesitas un rato para pensarlo, aquí estamos.</p>
+            <p className="border-t border-tinta/20 pt-6 font-display text-[28px] italic leading-snug text-terracota-oscura sm:text-[32px]">
+              Porque hay cosas que se dicen con flores. Y punto.
             </p>
           </Reveal>
         </div>
