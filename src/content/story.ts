@@ -1,4 +1,4 @@
-/** Textos del Estudio. Voz LÚMEA: concreta, sin frases hechas de condolencia. */
+/** Textos del Estudio. Voz Floryarte: concreta, sin frases hechas de condolencia. */
 export const manifesto = [
   'Un homenaje no tiene que parecerse a un funeral.',
   'Una flor de mercado bien puesta dice más que un arreglo caro.',

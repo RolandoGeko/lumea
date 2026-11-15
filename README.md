@@ -1,6 +1,6 @@
-# LÚMEA · MVP web de homenajes florales
+# Floryarte · MVP web de homenajes florales
 
-Prototipo funcional para validar la propuesta comercial de **LÚMEA**: homenajes florales contemporáneos y personalizados para Lima Metropolitana.
+Prototipo funcional para validar la propuesta comercial de **Floryarte**: homenajes florales contemporáneos y personalizados para Lima Metropolitana.
 
 > **Es una demostración.** Los precios son referenciales. No hay pagos, reservas, pedidos ni entregas reales, y nada se envía a un servidor.
 
@@ -35,7 +35,7 @@ npm run preview  # sirve la versión de /dist en local
 
 **WhatsApp:** escribe el número en `brand.whatsappNumber` en formato internacional sin `+` (por ejemplo `51987654321`). Si queda vacío, la web no abre WhatsApp y ofrece **copiar el mensaje**.
 
-**Sistema visual (paleta Costa):** colores y tipografías viven en `src/index.css` (bloque `@theme`). Títulos en EB Garamond y texto y fichas en Figtree (Google Fonts, gratuitas). La dirección creativa completa (concepto, sistema de diseño, manual de fotografía) está en el documento "LÚMEA · Dirección creativa".
+**Sistema visual (paleta Costa):** colores y tipografías viven en `src/index.css` (bloque `@theme`). Títulos en EB Garamond y texto y fichas en Figtree (Google Fonts, gratuitas). La dirección creativa completa (concepto, sistema de diseño, manual de fotografía) está en el documento "Dirección creativa" (redactado cuando la marca se llamaba LÚMEA).
 
 **Fotos pendientes:** donde no hay una foto que cumpla el manual, el catálogo usa `pendiente('…')` en `src/data/catalog.ts`, que muestra un marcador "Fotografía en producción". Al tener la foto propia, reemplázalo por la imagen.
 

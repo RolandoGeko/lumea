@@ -7,9 +7,9 @@
 
 export const brand = {
   /** Nombre comercial. Se usa en el header, footer, títulos y mensajes. */
-  name: 'LÚMEA',
+  name: 'Floryarte',
   /** Versión sin tildes ni mayúsculas, útil para claves internas. */
-  slug: 'lumea',
+  slug: 'floryarte',
   tagline: 'Flores con la forma de alguien',
   shortDescription:
     'Estudio de homenajes florales en Lima. Diseñamos cada pieza a partir de cómo era una persona.',
