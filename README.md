@@ -1,6 +1,6 @@
-# Floryarte · MVP web de homenajes florales
+# Flor y Punto · MVP web de homenajes florales
 
-Prototipo funcional para validar la propuesta comercial de **Floryarte**: homenajes florales contemporáneos y personalizados para Lima Metropolitana.
+Prototipo funcional para validar la propuesta comercial de **Flor y Punto**: homenajes florales contemporáneos y personalizados para Lima Metropolitana.
 
 > **Es una demostración.** Los precios son referenciales. No hay pagos, reservas, pedidos ni entregas reales, y nada se envía a un servidor.
 
